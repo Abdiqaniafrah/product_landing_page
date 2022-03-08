@@ -1,0 +1,150 @@
+body {
+    background-color: #F5F5DC;
+    font-family: Times New Roman;
+  }
+  div.header-img{
+    width: 100%;
+    background-color: #5F9EA0;
+    overflow: hidden;
+    position: fixed;
+  }
+  #header-img{
+    width: 250px;
+    filter: invert(100%);
+    margin: auto;
+    display: inline-block;
+  }
+  div.nav-bar{
+    overflow: hidden;
+    position: fixed;
+    background-color: #5F9EA0;
+    width: 100%;
+    top: 170px;
+  }
+  li{
+    float: right;
+    display: flex;
+    postiton: fixed;
+    margin-left: 2rem;
+    padding: 14px 50px;
+  }
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 50px;
+    float: right;
+    transition: background .5s ease;
+  }
+  .nav-link:hover{
+    background-color: #00BFFF;
+  }
+  .title{
+    margin-top: 20%;
+    color: #008B8F;
+    text-align: center;
+    font-style: italic;
+  }
+  #email{
+   display: block;
+    margin: auto;
+    width: 180px;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    background-color: #66CDAA;
+    font-size: 15px;
+    transition: width .5s ease,background .5s ease;
+  }
+  #email::placeholder{
+    color: white;
+    opacity: 70%;
+  }
+  #email:hover{
+    background-color: #2F4F4F;
+    width: 360px;
+  }
+  #submit {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    background-color: #66CDAA;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    transition: background .5s ease;
+  }
+  #submit:hover{
+    background-color: #2F4F4F;
+  }
+  .text{
+    width: 700px;
+    margin: auto;
+    color: #5F9EA0;
+    margin-top: 100px;
+    transition: text-shadow .5s ease;
+  }
+  .text:hover{
+    text-shadow: 0px 0px 10px;
+  }
+  #video{
+    width: 480px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #F5F5DC;
+    padding: 5px;
+  }
+  div.flex-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  div.law{
+    background-color: #D2691E;
+    margin: 20px;
+    transition: box-shadow .5s ease;
+  }
+  .law:hover{
+    box-shadow: 0px 0px 10px #5F9EA0;
+  }
+  .law-title{
+    padding: 10px;
+    background-color: #E9967A;
+    color: White;
+    text-align: center;
+  }
+  div.law-description{
+    color: white;
+  }
+  #law-submit{
+    background-color: #66CDAA;
+    border: none;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    transition: background .5s ease;
+  }
+  #law-submit:hover{
+    background-color: #2F4F4F; 
+  }
+  @media screen and (max-width:600px){
+    .flex-container{
+      flex-direction: column;
+    }
+    .nav-link{
+      width: 100%;
+      margin: auto;
+    }
+    .text{
+      width: 400px;
+    }
+  }
